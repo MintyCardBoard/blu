@@ -1390,7 +1390,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Midnight"}
+    local themes = {"Default", "Midnight", "BluHub"}
 
     local folderpath = string.format("%s//themes", self.folder)
 
